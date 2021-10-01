@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao Javascript</title>
+</head>
+<body onload="load()">
+    <h1>Bem vindo <span class="n-cg">Usuário</span></h1>
+    <br />
+    <button type="button" onclick="botao()">Clique aqui</button>
+    <br />
+    <button type="button" onmouseover="colorir(this)"  onmouseout="descolorir(this)">Colorir</button>
+    <button type="button" onmouseover="colorir(this)"  onmouseout="descolorir(this)">Colorir2</button>
+    <br />
+    <p id="agradecimento"onclick="redirecionar()">Olá Usuário</p>
+    <br />
+    <select onchange="funcaoEscolher(this)">
+        <option value="1">Escolher 1</option>
+        <option value="2">Escolher 2</option>
+        <option value="3">Escolher 3</option>
+    </select>
+
+    <!-- script -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
