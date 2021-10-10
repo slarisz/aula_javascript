@@ -1,3 +1,5 @@
+//------VARIAVEIS------//
+
 // não respeita o escopo de bloco
 var escopoGlobal = 'primeira variável criada'
 
@@ -98,5 +100,35 @@ people.shift('João')
 people[1] = 'Larissa'
 
 console.log('\nArray após as alterações: ', people)
+
+//------TIPOS------//
+//tipo primitivos
+ var string = 'Isso é uma string'
+
+ var number = 0 //basicamente.. números
+
+ var boolean = true && false // verdadeiro ou falso
+
+ var nulo = null //Uma palavra-chave que indica valor nulo.
+
+ var indefinido = undefined //Uma propriedade cujo a variável existe mas o seu valor ainda não foi definido
+
+ var symbol = symbol //Um tipo de dado cuja as instâncias são únicas e imutáveis.
+
+ //tipos 
+
+ objeto = {
+     //objeto
+ }
+
+//  function() {
+//     //função
+//  }
+
+ array = [
+     //Array
+ ]
+
+
 
 
