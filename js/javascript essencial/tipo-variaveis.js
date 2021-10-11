@@ -121,9 +121,9 @@ console.log('\nArray após as alterações: ', people)
      //objeto
  }
 
-//  function() {
-//     //função
-//  }
+ function fn() {
+    //função
+ }
 
  array = [
      //Array
