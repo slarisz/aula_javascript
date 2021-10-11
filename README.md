@@ -1,2 +1,2 @@
-# aula_javascript
+# Javascript - ES6 essencial
 Introdução ao Javascript - DIO
